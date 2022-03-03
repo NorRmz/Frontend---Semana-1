@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1 LaunchX</title>
+</head>
+<body>
+    <img src="https://saboryestilo.com.mx/wp-content/uploads/elementor/thumbs/pastel-de-3-leches-con-mermelada-de-fresa-pdqs725anbdr82qllrehgb0izhy6abyh9rkk23fsxs.jpg" alt="Logo pastel" width="350px" height="350px">
+    <br>
+    <br>
+    <br>
+<h2>Pasteles</h2>
+    <table>
+        <tr>
+            <th>Pastel</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Vainilla</td>
+            <td>$300.00 MXN</td>
+        </tr>
+        <tr>
+            <td>Chocolate</td>
+            <td>$350.00 MXN</td>
+        </tr>
+        <tr>
+            <td>Marmol</td>
+            <td>$390.00 MXN</td>
+        </tr>
+    </table>
+
+    <h2>Adornos</h2>
+    <table>
+        <tr>
+            <th>Cubierta</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Fondan</td>
+            <td>$100.00 MXN</td>
+        </tr>
+        <tr>
+            <td>Betun</td>
+            <td>$150.00 MXN</td>
+        </tr>
+        <tr>
+            <td>Cajeta</td>
+            <td>$250.00 MXN</td>
+        </tr>
+    </table>
+
+    <h2>Selecciona sabor de pastel</h2><br>
+    <input type="checkbox" id="base1" name="base1" value="Vainilla">
+    <label for="base1">Vainilla</label><br>
+    <input type="checkbox" id="base2" name="base2" value="Chocolate">
+    <label for="base2">Chocolate</label><br>
+    <input type="checkbox" id="base3" name="base3" value="Marmol">
+    <label for="base3">Marmol</label><br><br>
+
+    <h2>Selecciona una cubierta</h2><br>
+    <input type="radio" id="Fondan" name="cubierta" value="Fondan">
+    <label for="Fondan">Fondan</label><br>
+    <input type="radio" id="Betun" name="cubierta" value="Betun">
+    <label for="Betun">Betun</label><br>
+    <input type="radio" id="Cajeta" name="cubierta" value="Cajeta">
+    <label for="Cajeta">Cajeta</label><br><br>
+
+    <hr>
+
+    <h2>Datos de contacto</h2>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+        
+        <label for="email">Tu Email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="Telefono">Telefono:</label>
+        <input type="number" id="Telefono" name="Telefono" maxlength="10"><br>
+
+        <textarea name="descripción" id="descripcion" cols="30" rows="10">Descripción del pastel..</textarea>
+
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+
+
